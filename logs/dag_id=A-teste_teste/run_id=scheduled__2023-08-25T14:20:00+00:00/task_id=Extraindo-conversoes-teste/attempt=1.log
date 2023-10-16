@@ -1,0 +1,23 @@
+[2023-10-15T18:48:52.269-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: A-teste_teste.Extraindo-conversoes-teste scheduled__2023-08-25T14:20:00+00:00 [queued]>
+[2023-10-15T18:48:52.276-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: A-teste_teste.Extraindo-conversoes-teste scheduled__2023-08-25T14:20:00+00:00 [queued]>
+[2023-10-15T18:48:52.276-0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-10-15T18:48:52.310-0300] {taskinstance.py:1327} INFO - Executing <Task(DatabricksRunNowOperator): Extraindo-conversoes-teste> on 2023-08-25 14:20:00+00:00
+[2023-10-15T18:48:52.314-0300] {standard_task_runner.py:57} INFO - Started process 2332 to run task
+[2023-10-15T18:48:52.317-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'A-teste_teste', 'Extraindo-conversoes-teste', 'scheduled__2023-08-25T14:20:00+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/teste_teste.py', '--cfg-path', '/tmp/tmpm9gbv2dc']
+[2023-10-15T18:48:52.320-0300] {standard_task_runner.py:85} INFO - Job 189: Subtask Extraindo-conversoes-teste
+[2023-10-15T18:48:52.386-0300] {task_command.py:410} INFO - Running <TaskInstance: A-teste_teste.Extraindo-conversoes-teste scheduled__2023-08-25T14:20:00+00:00 [running]> on host DESKTOP-L4GJ4I7.
+[2023-10-15T18:48:52.489-0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='A-teste_teste' AIRFLOW_CTX_TASK_ID='Extraindo-conversoes-teste' AIRFLOW_CTX_EXECUTION_DATE='2023-08-25T14:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-25T14:20:00+00:00'
+[2023-10-15T18:48:52.499-0300] {base.py:73} INFO - Using connection ID 'databricks_default' for task execution.
+[2023-10-15T18:48:52.512-0300] {databricks_base.py:497} INFO - Using token auth.
+[2023-10-15T18:48:53.561-0300] {databricks.py:54} INFO - Run submitted with run_id: 1000046694402060
+[2023-10-15T18:48:53.561-0300] {databricks_base.py:497} INFO - Using token auth.
+[2023-10-15T18:48:54.190-0300] {databricks_base.py:497} INFO - Using token auth.
+[2023-10-15T18:48:54.684-0300] {databricks.py:95} INFO - Extraindo-conversoes-teste in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': ''}
+[2023-10-15T18:48:54.684-0300] {databricks.py:96} INFO - View run status, Spark UI, and logs at https://adb-343886000386578.18.azuredatabricks.net/?o=343886000386578#job/421985359739676/run/1000046694402060
+[2023-10-15T18:48:54.684-0300] {databricks.py:97} INFO - Sleeping for 30 seconds.
+[2023-10-15T18:49:24.715-0300] {databricks_base.py:497} INFO - Using token auth.
+[2023-10-15T18:49:25.245-0300] {databricks.py:65} INFO - Extraindo-conversoes-teste completed successfully.
+[2023-10-15T18:49:25.246-0300] {databricks.py:66} INFO - View run status, Spark UI, and logs at https://adb-343886000386578.18.azuredatabricks.net/?o=343886000386578#job/421985359739676/run/1000046694402060
+[2023-10-15T18:49:25.250-0300] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=A-teste_teste, task_id=Extraindo-conversoes-teste, execution_date=20230825T142000, start_date=20231015T214852, end_date=20231015T214925
+[2023-10-15T18:49:25.313-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-10-15T18:49:25.326-0300] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

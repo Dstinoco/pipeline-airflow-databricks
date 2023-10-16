@@ -1,0 +1,66 @@
+[2023-10-15T11:35:54.924-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: teste_teste.Extraindo-conversoes-teste scheduled__2023-09-25T14:20:00+00:00 [queued]>
+[2023-10-15T11:35:54.930-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: teste_teste.Extraindo-conversoes-teste scheduled__2023-09-25T14:20:00+00:00 [queued]>
+[2023-10-15T11:35:54.930-0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-10-15T11:35:54.957-0300] {taskinstance.py:1327} INFO - Executing <Task(DatabricksRunNowOperator): Extraindo-conversoes-teste> on 2023-09-25 14:20:00+00:00
+[2023-10-15T11:35:54.960-0300] {standard_task_runner.py:57} INFO - Started process 30742 to run task
+[2023-10-15T11:35:54.964-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'teste_teste', 'Extraindo-conversoes-teste', 'scheduled__2023-09-25T14:20:00+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/teste_teste.py', '--cfg-path', '/tmp/tmp16bjrpkk']
+[2023-10-15T11:35:54.966-0300] {standard_task_runner.py:85} INFO - Job 172: Subtask Extraindo-conversoes-teste
+[2023-10-15T11:35:55.018-0300] {task_command.py:410} INFO - Running <TaskInstance: teste_teste.Extraindo-conversoes-teste scheduled__2023-09-25T14:20:00+00:00 [running]> on host DESKTOP-L4GJ4I7.
+[2023-10-15T11:35:55.068-0300] {abstractoperator.py:593} ERROR - Exception rendering Jinja template for task 'Extraindo-conversoes-teste', field 'json'. Template: {'job_id': '307543230213856', 'notebook_params': {'data_execucao': '{{data_interval_end.strftime("%Y-%m-%d)}}'}}
+Traceback (most recent call last):
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 585, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 155, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/jinja2/environment.py", line 1105, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected char '"' at 29
+[2023-10-15T11:35:55.069-0300] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1407, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1531, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2179, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1254, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 585, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/template/templater.py", line 155, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/jinja2/environment.py", line 1105, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected char '"' at 29
+[2023-10-15T11:35:55.073-0300] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=teste_teste, task_id=Extraindo-conversoes-teste, execution_date=20230925T142000, start_date=20231015T143554, end_date=20231015T143555
+[2023-10-15T11:35:55.106-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 172 for task Extraindo-conversoes-teste (unexpected char '"' at 29; 30742)
+[2023-10-15T11:35:55.136-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-10-15T11:35:55.149-0300] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

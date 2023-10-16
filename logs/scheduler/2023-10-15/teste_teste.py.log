@@ -1,0 +1,465 @@
+[2023-10-15T11:24:39.652-0300] {processor.py:157} INFO - Started process (PID=27827) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:24:39.653-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:24:39.653-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:24:39.653-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:24:39.663-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:24:39.794-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:24:39.794-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:teste_teste
+[2023-10-15T11:24:39.818-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:24:39.817-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:teste_teste
+[2023-10-15T11:24:39.839-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:24:39.839-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:teste_teste
+[2023-10-15T11:24:39.839-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:24:39.839-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:24:39.853-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:24:39.852-0300] {dag.py:2747} INFO - Creating ORM DAG for teste_teste
+[2023-10-15T11:24:39.864-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:24:39.864-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:24:39.897-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.249 seconds
+[2023-10-15T11:25:33.686-0300] {processor.py:157} INFO - Started process (PID=28088) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:25:33.723-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:25:33.724-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:25:33.724-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:25:33.735-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:25:33.757-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:25:33.757-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:25:33.781-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:25:33.781-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:25:33.874-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.192 seconds
+[2023-10-15T11:27:14.375-0300] {processor.py:157} INFO - Started process (PID=28571) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:27:14.377-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:27:14.377-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:27:14.377-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:27:14.390-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:27:14.415-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:27:14.414-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:27:14.441-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:27:14.440-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:27:14.487-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.115 seconds
+[2023-10-15T11:28:01.415-0300] {processor.py:157} INFO - Started process (PID=28762) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:28:01.418-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:28:01.420-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:28:01.419-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:28:01.431-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:28:01.482-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:28:01.482-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:28:01.503-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:28:01.503-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:28:01.543-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.135 seconds
+[2023-10-15T11:28:43.642-0300] {processor.py:157} INFO - Started process (PID=28925) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:28:43.643-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:28:43.644-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:28:43.644-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:28:43.654-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:28:43.675-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:28:43.675-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:28:43.697-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:28:43.697-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:28:43.731-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.093 seconds
+[2023-10-15T11:29:28.651-0300] {processor.py:157} INFO - Started process (PID=29103) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:29:28.654-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:29:28.655-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:29:28.655-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:29:28.677-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:29:28.714-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:29:28.713-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:29:28.751-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:29:28.751-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:29:28.793-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.149 seconds
+[2023-10-15T11:30:12.267-0300] {processor.py:157} INFO - Started process (PID=29272) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:30:12.269-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:30:12.271-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:30:12.271-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:30:12.285-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:30:12.305-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:30:12.305-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:30:12.327-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:30:12.327-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:30:12.362-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.102 seconds
+[2023-10-15T11:30:55.124-0300] {processor.py:157} INFO - Started process (PID=29445) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:30:55.126-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:30:55.127-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:30:55.127-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:30:55.138-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:30:55.162-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:30:55.162-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:30:55.188-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:30:55.188-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:30:55.222-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.104 seconds
+[2023-10-15T11:31:41.091-0300] {processor.py:157} INFO - Started process (PID=29618) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:31:41.093-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:31:41.094-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:31:41.094-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:31:41.105-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:31:41.125-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:31:41.125-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:31:41.146-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:31:41.146-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:31:41.178-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.092 seconds
+[2023-10-15T11:32:23.047-0300] {processor.py:157} INFO - Started process (PID=29785) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:32:23.050-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:32:23.051-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:32:23.051-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:32:23.064-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:32:23.088-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:32:23.088-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:32:23.116-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:32:23.116-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:32:23.148-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.107 seconds
+[2023-10-15T11:33:10.463-0300] {processor.py:157} INFO - Started process (PID=29976) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:33:10.465-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:33:10.466-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:33:10.466-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:33:10.479-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:33:10.536-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:33:10.536-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:33:10.570-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:33:10.570-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T11:33:10.611-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.151 seconds
+[2023-10-15T11:34:13.765-0300] {processor.py:157} INFO - Started process (PID=30251) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:34:13.766-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:34:13.767-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:34:13.767-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:34:13.776-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:34:13.794-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:34:13.794-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:34:13.817-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:34:13.817-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-09-01T14:20:00+00:00, run_after=2023-09-02T14:20:00+00:00
+[2023-10-15T11:34:13.852-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.091 seconds
+[2023-10-15T11:35:44.709-0300] {processor.py:157} INFO - Started process (PID=30691) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:35:44.710-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:35:44.711-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:35:44.711-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:35:44.721-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:35:44.740-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:35:44.740-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:35:44.764-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:35:44.764-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-09-23T14:20:00+00:00, run_after=2023-09-24T14:20:00+00:00
+[2023-10-15T11:35:44.797-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.092 seconds
+[2023-10-15T11:37:07.486-0300] {processor.py:157} INFO - Started process (PID=31082) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:37:07.487-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:37:07.488-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:37:07.488-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:37:07.498-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:37:07.518-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:37:07.517-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:37:07.546-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:37:07.545-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:37:07.584-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.102 seconds
+[2023-10-15T11:37:40.317-0300] {processor.py:157} INFO - Started process (PID=31206) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:37:40.318-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:37:40.319-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:37:40.319-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:37:40.330-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:37:40.351-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:37:40.351-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:37:40.376-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:37:40.376-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:37:40.414-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.103 seconds
+[2023-10-15T11:38:20.542-0300] {processor.py:157} INFO - Started process (PID=31365) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:38:20.545-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:38:20.546-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:38:20.546-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:38:20.558-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:38:20.581-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:38:20.581-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:38:20.606-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:38:20.605-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:38:20.641-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.106 seconds
+[2023-10-15T11:39:02.712-0300] {processor.py:157} INFO - Started process (PID=31464) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:39:02.715-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:39:02.716-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:39:02.716-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:39:02.731-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:39:02.752-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:39:02.751-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:39:02.775-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:39:02.775-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:39:02.815-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.110 seconds
+[2023-10-15T11:39:48.448-0300] {processor.py:157} INFO - Started process (PID=31557) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:39:48.449-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:39:48.450-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:39:48.450-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:39:48.462-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:39:48.484-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:39:48.484-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:39:48.508-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:39:48.508-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:39:48.543-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.103 seconds
+[2023-10-15T11:40:32.757-0300] {processor.py:157} INFO - Started process (PID=31729) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:40:32.759-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:40:32.759-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:40:32.759-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:40:32.770-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:40:32.790-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:40:32.790-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:40:32.814-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:40:32.814-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:40:32.851-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.097 seconds
+[2023-10-15T11:41:13.630-0300] {processor.py:157} INFO - Started process (PID=31889) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:41:13.631-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:41:13.632-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:41:13.632-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:41:13.642-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:41:13.670-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:41:13.670-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:41:13.701-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:41:13.701-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:41:13.734-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.108 seconds
+[2023-10-15T11:41:59.187-0300] {processor.py:157} INFO - Started process (PID=32070) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:41:59.188-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:41:59.189-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:41:59.189-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:41:59.200-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:41:59.220-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:41:59.220-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:41:59.245-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:41:59.245-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:41:59.281-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.100 seconds
+[2023-10-15T11:42:40.999-0300] {processor.py:157} INFO - Started process (PID=32234) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:42:41.001-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:42:41.001-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:42:41.001-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:42:41.011-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:42:41.029-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:42:41.029-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:42:41.052-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:42:41.052-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:42:41.085-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.089 seconds
+[2023-10-15T11:43:18.760-0300] {processor.py:157} INFO - Started process (PID=32378) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:43:18.762-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:43:18.764-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:43:18.764-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:43:18.776-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:43:18.795-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:43:18.795-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:43:18.817-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:43:18.817-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:43:18.860-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.104 seconds
+[2023-10-15T11:43:59.358-0300] {processor.py:157} INFO - Started process (PID=32539) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:43:59.360-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:43:59.360-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:43:59.360-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:43:59.371-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:43:59.393-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:43:59.393-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:43:59.419-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:43:59.418-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:43:59.452-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.099 seconds
+[2023-10-15T11:44:40.875-0300] {processor.py:157} INFO - Started process (PID=32698) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:44:40.879-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:44:40.880-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:44:40.880-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:44:40.895-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:44:40.922-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:44:40.921-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:44:40.946-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:44:40.946-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:44:41.025-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.156 seconds
+[2023-10-15T11:45:21.762-0300] {processor.py:157} INFO - Started process (PID=32857) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:45:21.765-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:45:21.767-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:45:21.767-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:45:21.784-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:45:21.805-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:45:21.805-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:45:21.829-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:45:21.829-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:45:21.866-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.110 seconds
+[2023-10-15T11:46:09.046-0300] {processor.py:157} INFO - Started process (PID=33043) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:46:09.047-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:46:09.048-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:46:09.048-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:46:09.058-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:46:09.077-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:46:09.077-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:46:09.101-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:46:09.101-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:46:09.139-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.097 seconds
+[2023-10-15T11:46:51.701-0300] {processor.py:157} INFO - Started process (PID=33207) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:46:51.703-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:46:51.703-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:46:51.703-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:46:51.713-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:46:51.733-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:46:51.733-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:46:51.757-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:46:51.757-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:46:51.790-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.092 seconds
+[2023-10-15T11:47:32.869-0300] {processor.py:157} INFO - Started process (PID=33366) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:47:32.872-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:47:32.873-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:47:32.873-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:47:32.885-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:47:32.906-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:47:32.906-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:47:32.933-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:47:32.933-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:47:32.968-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.106 seconds
+[2023-10-15T11:48:15.858-0300] {processor.py:157} INFO - Started process (PID=33535) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:48:15.861-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:48:15.862-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:48:15.862-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:48:15.875-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:48:15.896-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:48:15.896-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:48:15.920-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:48:15.920-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:48:15.954-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.103 seconds
+[2023-10-15T11:48:57.934-0300] {processor.py:157} INFO - Started process (PID=33698) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:48:57.937-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:48:57.938-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:48:57.937-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:48:57.947-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:48:57.967-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:48:57.967-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:48:57.991-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:48:57.991-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:48:58.060-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.129 seconds
+[2023-10-15T11:49:40.481-0300] {processor.py:157} INFO - Started process (PID=33859) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:49:40.483-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:49:40.483-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:49:40.483-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:49:40.494-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:49:40.516-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:49:40.516-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:49:40.544-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:49:40.543-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:49:40.581-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.104 seconds
+[2023-10-15T11:50:18.858-0300] {processor.py:157} INFO - Started process (PID=34014) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:50:18.860-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:50:18.860-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:50:18.860-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:50:18.870-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:50:18.890-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:50:18.890-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:50:18.916-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:50:18.915-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:50:18.958-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.103 seconds
+[2023-10-15T11:51:00.664-0300] {processor.py:157} INFO - Started process (PID=34176) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:51:00.668-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T11:51:00.670-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:51:00.669-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:51:00.688-0300] {processor.py:836} INFO - DAG(s) dict_keys(['teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T11:51:00.709-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:51:00.708-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T11:51:00.735-0300] {logging_mixin.py:149} INFO - [2023-10-15T11:51:00.734-0300] {dag.py:3486} INFO - Setting next_dagrun for teste_teste to 2023-10-10T14:20:00+00:00, run_after=2023-10-11T14:20:00+00:00
+[2023-10-15T11:51:00.770-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.114 seconds
+[2023-10-15T18:44:53.967-0300] {processor.py:157} INFO - Started process (PID=1378) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:44:53.969-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:44:53.970-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:44:53.970-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:44:53.974-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:44:53.973-0300] {dagbag.py:350} ERROR - Failed to import: /home/tinoco/airflow/dags/teste_teste.py
+Traceback (most recent call last):
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/tinoco/airflow/dags/teste_teste.py", line 17
+    extraindo_dados = DatabricksRunNowOperator(
+                                              ^
+SyntaxError: '(' was never closed
+[2023-10-15T18:44:53.974-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:44:54.018-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.056 seconds
+[2023-10-15T18:45:46.172-0300] {processor.py:157} INFO - Started process (PID=1596) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:45:46.174-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:45:46.174-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:45:46.174-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:45:46.177-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:45:46.176-0300] {dagbag.py:350} ERROR - Failed to import: /home/tinoco/airflow/dags/teste_teste.py
+Traceback (most recent call last):
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/tinoco/airflow/dags/teste_teste.py", line 17
+    extraindo_dados = DatabricksRunNowOperator(
+                                              ^
+SyntaxError: '(' was never closed
+[2023-10-15T18:45:46.178-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:45:46.212-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.043 seconds
+[2023-10-15T18:46:35.678-0300] {processor.py:157} INFO - Started process (PID=1790) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:46:35.777-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:46:35.779-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:46:35.778-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:46:35.781-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:46:35.781-0300] {dagbag.py:350} ERROR - Failed to import: /home/tinoco/airflow/dags/teste_teste.py
+Traceback (most recent call last):
+  File "/home/tinoco/airflow-databricks/curso_datAir/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/tinoco/airflow/dags/teste_teste.py", line 17
+    extraindo_dados = DatabricksRunNowOperator(
+                                              ^
+SyntaxError: '(' was never closed
+[2023-10-15T18:46:35.782-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:46:35.831-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.157 seconds
+[2023-10-15T18:47:33.395-0300] {processor.py:157} INFO - Started process (PID=2017) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:47:33.465-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:47:33.467-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:33.467-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:47:33.486-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:47:34.019-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:34.019-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:A-teste_teste
+[2023-10-15T18:47:34.052-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:34.052-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:A-teste_teste
+[2023-10-15T18:47:34.076-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:34.076-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:A-teste_teste
+[2023-10-15T18:47:34.077-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:34.076-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:47:34.089-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:34.089-0300] {dag.py:2747} INFO - Creating ORM DAG for A-teste_teste
+[2023-10-15T18:47:34.101-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:34.101-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T18:47:34.159-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.769 seconds
+[2023-10-15T18:47:59.449-0300] {processor.py:157} INFO - Started process (PID=2116) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:47:59.451-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:47:59.452-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:59.452-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:47:59.469-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:47:59.480-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:59.480-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:47:59.506-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:47:59.506-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T18:47:59.551-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.110 seconds
+[2023-10-15T18:48:27.866-0300] {processor.py:157} INFO - Started process (PID=2233) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:48:27.895-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:48:27.896-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:48:27.896-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:48:27.907-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:48:27.934-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:48:27.934-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:48:27.969-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:48:27.969-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-25T14:20:00+00:00, run_after=2023-08-26T14:20:00+00:00
+[2023-10-15T18:48:28.031-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.169 seconds
+[2023-10-15T18:51:16.136-0300] {processor.py:157} INFO - Started process (PID=2867) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:51:16.139-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:51:16.141-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:51:16.140-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:51:16.152-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:51:16.174-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:51:16.174-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:51:16.197-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:51:16.197-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-29T14:20:00+00:00, run_after=2023-08-30T14:20:00+00:00
+[2023-10-15T18:51:16.235-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.106 seconds
+[2023-10-15T18:53:20.149-0300] {processor.py:157} INFO - Started process (PID=3290) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:53:20.153-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:53:20.154-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:53:20.154-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:53:20.169-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:53:20.190-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:53:20.190-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:53:20.218-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:53:20.218-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:53:20.269-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.128 seconds
+[2023-10-15T18:54:04.090-0300] {processor.py:157} INFO - Started process (PID=3465) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:54:04.093-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:54:04.095-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:54:04.094-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:54:04.114-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:54:04.135-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:54:04.135-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:54:04.160-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:54:04.160-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:54:04.194-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.111 seconds
+[2023-10-15T18:54:48.380-0300] {processor.py:157} INFO - Started process (PID=3641) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:54:48.382-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:54:48.382-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:54:48.382-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:54:48.393-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:54:48.413-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:54:48.412-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:54:48.436-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:54:48.436-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:54:48.477-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.100 seconds
+[2023-10-15T18:55:30.154-0300] {processor.py:157} INFO - Started process (PID=3807) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:55:30.155-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:55:30.156-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:55:30.156-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:55:30.170-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:55:30.197-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:55:30.197-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:55:30.231-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:55:30.231-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:55:30.269-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.119 seconds
+[2023-10-15T18:56:12.935-0300] {processor.py:157} INFO - Started process (PID=3971) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:56:12.938-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:56:12.940-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:56:12.939-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:56:12.959-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:56:12.986-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:56:12.986-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:56:13.011-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:56:13.011-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:56:13.047-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.118 seconds
+[2023-10-15T18:56:59.103-0300] {processor.py:157} INFO - Started process (PID=4150) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:56:59.105-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:56:59.106-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:56:59.106-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:56:59.118-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:56:59.143-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:56:59.143-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:56:59.169-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:56:59.168-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:56:59.204-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.109 seconds
+[2023-10-15T18:57:59.654-0300] {processor.py:157} INFO - Started process (PID=4370) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:57:59.656-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:57:59.658-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:57:59.658-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:57:59.676-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:57:59.697-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:57:59.696-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:57:59.721-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:57:59.721-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:57:59.756-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.109 seconds
+[2023-10-15T18:58:51.358-0300] {processor.py:157} INFO - Started process (PID=4571) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:58:51.361-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:58:51.363-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:58:51.363-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:58:51.375-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:58:51.400-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:58:51.400-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:58:51.427-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:58:51.427-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:58:51.464-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.112 seconds
+[2023-10-15T18:59:35.673-0300] {processor.py:157} INFO - Started process (PID=4749) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:59:35.675-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T18:59:35.676-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:59:35.676-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:59:35.688-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T18:59:35.710-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:59:35.710-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T18:59:35.734-0300] {logging_mixin.py:149} INFO - [2023-10-15T18:59:35.734-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T18:59:35.770-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.104 seconds
+[2023-10-15T19:00:19.390-0300] {processor.py:157} INFO - Started process (PID=4919) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:00:19.393-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:00:19.394-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:00:19.394-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:00:19.405-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:00:19.455-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:00:19.455-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:00:19.511-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:00:19.511-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:00:19.576-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.191 seconds
+[2023-10-15T19:01:01.874-0300] {processor.py:157} INFO - Started process (PID=5085) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:01:01.876-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:01:01.877-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:01:01.876-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:01:01.888-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:01:01.909-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:01:01.909-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:01:01.934-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:01:01.934-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:01:01.988-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.119 seconds
+[2023-10-15T19:01:45.124-0300] {processor.py:157} INFO - Started process (PID=5253) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:01:45.168-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:01:45.169-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:01:45.169-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:01:45.180-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:01:45.203-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:01:45.203-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:01:45.232-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:01:45.232-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:01:45.318-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.202 seconds
+[2023-10-15T19:02:29.285-0300] {processor.py:157} INFO - Started process (PID=5420) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:02:29.288-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:02:29.288-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:02:29.288-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:02:29.300-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:02:29.334-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:02:29.333-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:02:29.359-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:02:29.359-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:02:29.397-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.115 seconds
+[2023-10-15T19:03:14.177-0300] {processor.py:157} INFO - Started process (PID=5596) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:03:14.179-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:03:14.180-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:03:14.180-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:03:14.190-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:03:14.211-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:03:14.211-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:03:14.236-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:03:14.236-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:03:14.285-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.111 seconds
+[2023-10-15T19:03:59.359-0300] {processor.py:157} INFO - Started process (PID=5768) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:03:59.361-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:03:59.362-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:03:59.362-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:03:59.374-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:03:59.396-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:03:59.396-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:03:59.422-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:03:59.422-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:03:59.459-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.103 seconds
+[2023-10-15T19:04:42.629-0300] {processor.py:157} INFO - Started process (PID=5932) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:04:42.653-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:04:42.655-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:04:42.654-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:04:42.675-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:04:42.704-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:04:42.704-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:04:42.727-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:04:42.727-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:04:42.816-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.194 seconds
+[2023-10-15T19:05:27.406-0300] {processor.py:157} INFO - Started process (PID=6110) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:05:27.408-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:05:27.409-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:05:27.409-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:05:27.418-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:05:27.438-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:05:27.438-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:05:27.463-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:05:27.463-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:05:27.497-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.094 seconds
+[2023-10-15T19:06:10.495-0300] {processor.py:157} INFO - Started process (PID=6275) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:06:10.497-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:06:10.498-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:06:10.498-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:06:10.508-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:06:10.531-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:06:10.531-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:06:10.558-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:06:10.558-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:06:10.596-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.104 seconds
+[2023-10-15T19:06:55.623-0300] {processor.py:157} INFO - Started process (PID=6448) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:06:55.625-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:06:55.626-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:06:55.625-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:06:55.636-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:06:55.657-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:06:55.657-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:06:55.682-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:06:55.682-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:06:55.720-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.101 seconds
+[2023-10-15T19:07:43.747-0300] {processor.py:157} INFO - Started process (PID=6640) to work on /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:07:43.749-0300] {processor.py:826} INFO - Processing file /home/tinoco/airflow/dags/teste_teste.py for tasks to queue
+[2023-10-15T19:07:43.749-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:07:43.749-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:07:43.762-0300] {processor.py:836} INFO - DAG(s) dict_keys(['A-teste_teste']) retrieved from /home/tinoco/airflow/dags/teste_teste.py
+[2023-10-15T19:07:43.785-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:07:43.785-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-15T19:07:43.812-0300] {logging_mixin.py:149} INFO - [2023-10-15T19:07:43.811-0300] {dag.py:3486} INFO - Setting next_dagrun for A-teste_teste to 2023-08-31T14:20:00+00:00, run_after=2023-09-01T14:20:00+00:00
+[2023-10-15T19:07:43.850-0300] {processor.py:179} INFO - Processing /home/tinoco/airflow/dags/teste_teste.py took 0.106 seconds

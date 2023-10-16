@@ -1,0 +1,2 @@
+[2023-10-15T20:05:40.317-0300] {taskinstance.py:1093} INFO - Dependencies not met for <TaskInstance: Executando-notebook-etl.transformando_dados scheduled__2023-10-10T14:20:00+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2023-10-15T20:05:40.327-0300] {local_task_job_runner.py:154} INFO - Task is not able to be run

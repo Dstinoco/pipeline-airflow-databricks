@@ -1,0 +1,2 @@
+[2023-10-15T20:05:36.849-0300] {taskinstance.py:1093} INFO - Dependencies not met for <TaskInstance: Executando-notebook-etl.Extraindo-conversoes scheduled__2023-10-11T14:20:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state.
+[2023-10-15T20:05:36.850-0300] {local_task_job_runner.py:154} INFO - Task is not able to be run
